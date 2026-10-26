@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTROL LAMPU</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="py-3 px-3">
+        <h1 class="flex justify-center font-serif font-semibold text-2xl">CONTROL LAMPU</h1>
+    </div>
+
+    <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+
+            <div class="flex items-start gap-4 rounded-lg border border-gray-300 p-6 shadow-lg/20">
+
+                <div class="justify-items-center align-items-center text-center">
+                    <h3 class="text-lg font-semibold text-gray-900">RUANG KELUARGA</h3>
+                    <img src="assets/off.gif" id="lampuKeluarga" />
+                    <P>Nyalakan semua lampu</P>
+                    <label for="saklarLampuKeluarga"
+                        class="relative block h-8 w-14 rounded-full bg-gray-300 transition-colors [-webkit-tap-highlight-color:transparent] has-checked:bg-green-500">
+                        <input type="checkbox" class="peer sr-only" onchange="ruangKeluarga()"
+                            id="saklarLampuKeluarga" />
+                        <span
+                            class="absolute inset-y-0 start-0 m-1 size-6 rounded-full bg-white transition-[inset-inline-start] peer-checked:start-6"></span>
+                    </label>
+                    <p class="mt-2 text-pretty text-gray-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus consectetur, <a
+                            href="ruangKeluarga.html" class="italic text-blue-500">klik untuk detail.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex items-start gap-4 rounded-lg border border-gray-300 p-6 shadow-lg/20">
+
+                <div class="justify-items-center align-items-center text-center">
+                    <h3 class="text-lg font-semibold text-gray-900">RUANG MAKAN</h3>
+                    <img src="assets/off.gif" id="lampuMakan" />
+                    <P>Nyalakan semua lampu</P>
+                    <label for="saklarLampuMakan"
+                        class="relative block h-8 w-14 rounded-full bg-gray-300 transition-colors [-webkit-tap-highlight-color:transparent] has-checked:bg-green-500">
+                        <input type="checkbox" class="peer sr-only" onchange="ruangMakan()" id="saklarLampuMakan" />
+                        <span
+                            class="absolute inset-y-0 start-0 m-1 size-6 rounded-full bg-white transition-[inset-inline-start] peer-checked:start-6"></span>
+                    </label>
+                    <p class="mt-2 text-pretty text-gray-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus consectetur, <a
+                            href="ruangMakan.html" class="italic text-blue-500">klik untuk detail.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex items-start gap-4 rounded-lg border border-gray-300 p-6 shadow-lg/20">
+
+                <div class="justify-items-center align-items-center text-center">
+                    <h3 class="text-lg font-semibold text-gray-900">RUANG TAMU</h3>
+                    <img src="assets/off.gif" id="lampuTamu" />
+                    <P>Nyalakan semua lampu</P>
+                    <label for="saklarLampuTamu"
+                        class="relative block h-8 w-14 rounded-full bg-gray-300 transition-colors [-webkit-tap-highlight-color:transparent] has-checked:bg-green-500">
+                        <input type="checkbox" class="peer sr-only" onchange="ruangTamu()" id="saklarLampuTamu" />
+                        <span
+                            class="absolute inset-y-0 start-0 m-1 size-6 rounded-full bg-white transition-[inset-inline-start] peer-checked:start-6"></span>
+                    </label>
+                    <p class="mt-2 text-pretty text-gray-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus consectetur, <a
+                            href="ruangTamu.html" class="italic text-blue-500">klik untuk detail.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex items-start gap-4 rounded-lg border border-gray-300 p-6 shadow-lg/20">
+
+                <div class="justify-items-center align-items-center text-center">
+                    <h3 class="text-lg font-semibold text-gray-900">RUANG TIDUR</h3>
+                    <img src="assets/off.gif" id="lampuTidur" />
+                    <P>Nyalakan semua lampu</P>
+                    <label for="saklarLampuTidur"
+                        class="relative block h-8 w-14 rounded-full bg-gray-300 transition-colors [-webkit-tap-highlight-color:transparent] has-checked:bg-green-500">
+                        <input type="checkbox" class="peer sr-only" onchange="ruangTidur()" id="saklarLampuTidur" />
+                        <span
+                            class="absolute inset-y-0 start-0 m-1 size-6 rounded-full bg-white transition-[inset-inline-start] peer-checked:start-6"></span>
+                    </label>
+                    <p class="mt-2 text-pretty text-gray-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus consectetur, <a
+                            href="ruangTidur.html" class="italic text-blue-500">klik untuk detail.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+    <script type="application/javascript" src="script.js"></script>
+</body>
+
+</html>

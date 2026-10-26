@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTROL LAMPU</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <div class="py-3 px-3">
+        <a class="inline-flex items-center justify-center rounded-full border border-indigo-600 bg-indigo-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-indigo-700 focus-visible:ring-4 focus-visible:ring-indigo-200 focus-visible:outline-none"
+            href="index.html">
+            Home
+        </a>
+        <h1 class="flex justify-center font-serif font-semibold text-2xl" >RUANG TAMU</h1>
+    </div>
+    <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+            <div class="flex items-start gap-4 rounded-lg border border-gray-300 p-6 shadow-lg/20">
+
+                <div class="justify-items-center align-items-center text-center">
+                    <h3 class="text-lg font-semibold text-gray-900">LAMPU 1</h3>
+                    <img src="assets/off.gif" id="lampu1" />
+                    <P>Nyalakan lampu</P>
+                    <label for="saklarLampu1"
+                        class="relative block h-8 w-14 rounded-full bg-gray-300 transition-colors [-webkit-tap-highlight-color:transparent] has-checked:bg-green-500">
+                        <input type="checkbox" class="peer sr-only" onchange="saklar1()" id="saklarLampu1" />
+                        <span
+                            class="absolute inset-y-0 start-0 m-1 size-6 rounded-full bg-white transition-[inset-inline-start] peer-checked:start-6"></span>
+                    </label>
+                    <p class="mt-2 text-pretty text-gray-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus consectetur.
+                    </p>
+                </div>
+
+            </div>
+            <div class="flex items-start gap-4 rounded-lg border border-gray-300 p-6 shadow-lg/20">
+
+                <div class="justify-items-center align-items-center text-center">
+                    <h3 class="text-lg font-semibold text-gray-900">LAMPU 2</h3>
+                    <img src="assets/off.gif" id="lampu2" />
+                    <P>Nyalakan lampu</P>
+                    <label for="saklarLampu2"
+                        class="relative block h-8 w-14 rounded-full bg-gray-300 transition-colors [-webkit-tap-highlight-color:transparent] has-checked:bg-green-500">
+                        <input type="checkbox" class="peer sr-only" onchange="saklar2()" id="saklarLampu2" />
+                        <span
+                            class="absolute inset-y-0 start-0 m-1 size-6 rounded-full bg-white transition-[inset-inline-start] peer-checked:start-6"></span>
+                    </label>
+                    <p class="mt-2 text-pretty text-gray-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus consectetur.
+                    </p>
+                </div>
+
+            </div>
+            <div class="flex items-start gap-4 rounded-lg border border-gray-300 p-6 shadow-lg/20">
+
+                <div class="justify-items-center align-items-center text-center">
+                    <h3 class="text-lg font-semibold text-gray-900">LAMPU 3</h3>
+                    <img src="assets/off.gif" id="lampu3" />
+                    <P>Nyalakan lampu</P>
+                    <label for="saklarLampu3"
+                        class="relative block h-8 w-14 rounded-full bg-gray-300 transition-colors [-webkit-tap-highlight-color:transparent] has-checked:bg-green-500">
+                        <input type="checkbox" class="peer sr-only" onchange="saklar3()" id="saklarLampu3" />
+                        <span
+                            class="absolute inset-y-0 start-0 m-1 size-6 rounded-full bg-white transition-[inset-inline-start] peer-checked:start-6"></span>
+                    </label>
+                    <p class="mt-2 text-pretty text-gray-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus consectetur.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="flex items-start gap-4 rounded-lg border border-gray-300 p-6 shadow-lg/20">
+
+                <div class="justify-items-center align-items-center text-center">
+                    <h3 class="text-lg font-semibold text-gray-900">SEMUA LAMPU</h3>
+                    <img src="assets/off.gif" id="semuaLampu" />
+                    <P>Nyalakan semua lampu</P>
+                    <label for="saklarSemua"
+                        class="relative block h-8 w-14 rounded-full bg-gray-300 transition-colors [-webkit-tap-highlight-color:transparent] has-checked:bg-green-500">
+                        <input type="checkbox" class="peer sr-only" onchange="saklarSemua()" id="saklarSemua" />
+                        <span
+                            class="absolute inset-y-0 start-0 m-1 size-6 rounded-full bg-white transition-[inset-inline-start] peer-checked:start-6"></span>
+                    </label>
+                    <p class="mt-2 text-pretty text-gray-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut accusamus consectetur.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+    <script type="application/javascript" src="lampuTamu.js"></script>
+</body>
+
+</html>
